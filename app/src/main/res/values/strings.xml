@@ -1,13 +1,17 @@
 <resources>
-    <string name="app_name">LtmFirst</string>
-    <string name="nome">Titolo</string>
-    <string name="subtitle">Sottotitolo</string>
-    <string name="date">08/02/2017</string>
-    <string name="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque ante arcu, quis volutpat sapien pulvinar blandit. Quisque vel purus in est dapibus viverra sit amet eu nisi. Nullam faucibus vehicula ante nec hendrerit. Nunc auctor interdum convallis. Donec tempor ipsum vitae nibh eleifend, placerat placerat enim viverra. Vivamus mattis.</string>
-
+    <string name="app_name">Contacts</string>
+    <string name="user">Francesco Stella</string>
+    <string name="course">LTM 11</string>
+    <string name="date">27/07/1997</string>
+    <string name="address">Via Sandro Sandri 71 Roma</string>
+    <string name="tel">3295632453</string>
     <string name="btn_read">Leggi</string>
+    <string name="btn_go">Go</string>
+    <string name="btn_call">Call</string>
+
     <string name="email_hint">Inserisci email</string>
     <string name="password_hint">Inserisci password</string>
     <string name="login_hint">LOGIN</string>
     <string name="login_res_ok">Login successfull</string>
+    <string name="login_res_ko">Please fill form</string>
 </resources>
