@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">LtmFirst</string>
-    <string name="title">Titolo</string>
+    <string name="nome">Titolo</string>
     <string name="subtitle">Sottotitolo</string>
     <string name="date">08/02/2017</string>
     <string name="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque ante arcu, quis volutpat sapien pulvinar blandit. Quisque vel purus in est dapibus viverra sit amet eu nisi. Nullam faucibus vehicula ante nec hendrerit. Nunc auctor interdum convallis. Donec tempor ipsum vitae nibh eleifend, placerat placerat enim viverra. Vivamus mattis.</string>

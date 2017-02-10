@@ -14,6 +14,7 @@
             android:layout_height="wrap_content" />
 
         <EditText
+
             android:inputType="textPassword"
             android:id="@+id/login_pwd_txt"
             android:layout_below="@+id/login_email_txt"
@@ -30,7 +31,8 @@
             android:text="@string/login_hint"
             android:background="@color/colorPrimary"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center"
             android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
