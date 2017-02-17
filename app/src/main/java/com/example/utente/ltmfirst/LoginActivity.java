@@ -1,6 +1,7 @@
 package com.example.utente.ltmfirst;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,7 +11,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.os.Vibrator;
 
 /**
  * Created by Utente on 10/02/2017.
@@ -25,18 +25,19 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+
+
         email_et = (EditText) findViewById(R.id.login_email_txt);
         psw_et = (EditText) findViewById(R.id.login_pwd_txt);
         login_btn = (TextView) findViewById(R.id.login_log_btn);
         login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
             if(doLogin(email_et.getText().toString(), psw_et.getText().toString())) {
 
-                Vibrator x = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-                // Vibrate for 500 milliseconds
-                x.vibrate(500);
                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                //intent.putExtra("email",email_et.getText().toString());
                 startActivity(intent);
                 finish();
             }
